@@ -521,9 +521,9 @@ body {
     /* flex-wrap: wrap; */
     flex-direction: column;
 
-    /* Second line indent matches with arrow + margin-right (1+0.7)rem */
-    text-indent:-1.7rem; 
-    margin-left:1.7rem;
+    /* Second line indent matches with arrow + margin-right (0.7+0.7)rem */
+    text-indent:-1.4rem; 
+    margin-left:1.4rem;
 }
 
 .education_list-item {
@@ -536,16 +536,16 @@ body {
 .education_list-item::before {
     content: "";
     display: inline-block;
-    height: 1rem;
-    width: 1rem;
+    height: .7rem;
+    width: .7rem;
     margin-right: .7rem;
 
-    background-color: var(--color-primary-dark);
-    -webkit-mask-image: url(../img/svg/chevron-thin-right.svg);
+    background-color: var(--color-primary-light);
+    /* -webkit-mask-image: url(img/chevron-thin-right.svg);
     -webkit-mask-size: cover;
-    mask-image: url(../img/svg/chevron-thin-right.svg);
-    mask-size: cover;
-}
+    mask-image: url(../001_personal_website/img/SVG/cloud.svg);
+    mask-size: cover; */
+} 
 
 
 /* WORK */
